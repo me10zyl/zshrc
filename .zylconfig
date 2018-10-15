@@ -1,30 +1,9 @@
-[[ -s /Users/zyl/.autojump/etc/profile.d/autojump.sh ]] && source /Users/zyl/.autojump/etc/profile.d/autojump.sh
-
-autoload -U compinit && compinit -u
-
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-git
-autojump
-)
-
-source ~/.oh-my-zsh/antigen.zsh
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen apply
-
-#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 export TJ=~/Documents/itaojingit
 export B=$TJ/blog
 export SS=~/sshs
 export T=~/sshs/test
 export P=~/sshs/prd
 export D=~/Downloads
-
 
 alias ls='ls -aG'
 alias ll='ls -laG'
