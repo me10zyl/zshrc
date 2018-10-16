@@ -54,11 +54,12 @@ antigen use oh-my-zsh
 
 # default bundles
 # visit https://github.com/unixorn/awesome-zsh-plugins
-# antigen bundle git
-# antigen bundle heroku
+antigen bundle git
+antigen bundle heroku
+antigen bundle lein
 antigen bundle pip
 antigen bundle svn-fast-info
-# antigen bundle command-not-find
+antigen bundle command-not-find
 
 antigen bundle colorize
 antigen bundle github
@@ -179,5 +180,5 @@ zstyle ':completion:*:*sh:*:' tag-order files
 
 # external config
 if [ -e ~/.zylconfig ]; then
-        source ~/.zylconfig
+       source ~/.zylconfig
 fi
